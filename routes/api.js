@@ -5,7 +5,7 @@ var router = express.Router();
 
 //module
 const util = require('util'),
-  develop = '@Rossy-Chan';
+  develop = '@DarkMrYasiya';
 
 //Func is URL
 const isUrl = (url) => {
