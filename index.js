@@ -17,7 +17,7 @@ app.use(express.static("lib"))
 app.use('/', mainrouter)
 app.use('/api', apirouter)
 app.use(function (req, res, next) {
-  res.redirect('https://github.com/DarkMrYasiya/FBDL-API#readme')
+  res.redirect('https://github.com/DarkYasiyaofc/FBDL-API#readme')
 });
 
 app.listen(PORT, () => {
